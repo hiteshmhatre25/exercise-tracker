@@ -1,0 +1,56 @@
+.app {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.form-container, .workout-list {
+  background: #f5f5f5;
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+input {
+  display: block;
+  width: 100%;
+  padding: 8px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+button {
+  background: #4CAF50;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button {
+  margin-right: 5px;
+}
+
+
+button:hover {
+  background: #45a049;
+}
+
+.error {
+  color: red;
+}
+
+.workout-list ul {
+  list-style: none;
+  padding: 0;
+}
+
+.workout-list li {
+  background: white;
+  padding: 10px;
+  margin: 5px 0;
+  border-radius: 4px;
+}
